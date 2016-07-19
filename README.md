@@ -1,12 +1,16 @@
-# Solder: Website
+# Kleister: Website
 
-[![Build Status](http://github.dronehippie.de/api/badges/solderapp/solderapp.github.com/status.svg)](http://github.dronehippie.de/solderapp/solderapp.github.com)
-[![Join the chat at https://gitter.im/solderapp/solderapp.github.com](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/solderapp/solderapp.github.com)
+[![Build Status](http://github.dronehippie.de/api/badges/kleister/kleister-docs/status.svg)](http://github.dronehippie.de/kleister/kleister-docs)
+[![Join the chat at https://gitter.im/kleister/kleister](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kleister/kleister)
 
 **This project is under heavy development, it's not in a working state yet!**
 
-Documentation for the Solder API and the command line client, you can find this
-website at [solderapp.gitghub.com](https://solderapp.github.com).
+Where does this name come from or what does it mean? It's quite simple, it's one
+german word for paste/glue, I thought it's a good match as it glues together the
+modpacks for Minecraft.
+
+Documentation for the Kleister API and the command line client, you can find this
+website at [kleister.gitghub.com](https://kleister.github.com).
 
 
 ## Install

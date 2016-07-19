@@ -5,4 +5,4 @@ pipeline:
       - apk -U add hugo@testing
       - hugo
 
-  # TODO: Push to master @ github.com/solderapp/solderapp.github.com
+  # TODO: Push to master @ github.com/kleister/kleister.github.com
