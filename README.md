@@ -10,7 +10,7 @@ german word for paste/glue, I thought it's a good match as it glues together the
 modpacks for Minecraft.
 
 Documentation for the Kleister API and the command line client, you can find this
-website at [kleister.gitghub.com](https://kleister.github.com).
+website at [kleister.webhippie.de](https://kleister.webhippie.de).
 
 
 ## Hosting
