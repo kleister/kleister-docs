@@ -2,3 +2,11 @@ baseurl = "http://kleister.webhippie.de/"
 languageCode = "en-us"
 title = "Kleister"
 disableRSS = true
+
+[params]
+  Description = "Manage mod packs for Minecraft"
+  Author = "Kleister Team"
+  Website = "https://kleister.webhippie.de"
+
+[social]
+  Github = "kleister"

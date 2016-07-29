@@ -1,4 +1,4 @@
-# Kleister: Website
+# Kleister: Documentation
 
 [![Build Status](http://github.dronehippie.de/api/badges/kleister/kleister-docs/status.svg)](http://github.dronehippie.de/kleister/kleister-docs)
 [![Join the chat at https://gitter.im/kleister/kleister](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kleister/kleister)
