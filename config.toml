@@ -1,4 +1,4 @@
-baseurl = "http://kleister.webhippie.de/"
+baseurl = "https://kleister.webhippie.de/"
 languageCode = "en-us"
 title = "Kleister"
 disableRSS = true
