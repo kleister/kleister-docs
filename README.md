@@ -1,6 +1,7 @@
 # Kleister: Documentation
 
 [![Build Status](http://github.dronehippie.de/api/badges/kleister/kleister-docs/status.svg)](http://github.dronehippie.de/kleister/kleister-docs)
+[![](https://images.microbadger.com/badges/image/kleister/kleister-docs.svg)](http://microbadger.com/images/kleister/kleister-docs "Get your own image badge on microbadger.com")
 [![Join the chat at https://gitter.im/kleister/kleister](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kleister/kleister)
 
 **This project is under heavy development, it's not in a working state yet!**
