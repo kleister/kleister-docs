@@ -20,6 +20,15 @@ The website is hosted on [Pubstorm](https://www.pubstorm.com/), an awesome free
 hosting platform made for developers. The website gets automcatically updated
 on every push to the `master` branch.
 
+If you want to host the docs on your own you can take our docker image
+`kleister/kleister-docs`. Per default it will server from the document root
+`/`, but you can customize it if you provide the environment variable
+`KLEISTER_ROOT`, don't forget the trailing slash:
+
+```
+docker run -d --name kleister-docs -e KLEISTER_ROOT=/docs/ -p 8080:80 kleister/kleister-docs
+```
+
 
 ## Install
 
