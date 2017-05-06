@@ -7,6 +7,4 @@ disableRSS = true
   Description = "Manage mod packs for Minecraft"
   Author = "Kleister Team"
   Website = "https://kleister.webhippie.de"
-
-[social]
   Github = "kleister"
