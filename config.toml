@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "Kleister"
-disableRSS = true
+disableKinds = ["RSS"]
 
 [params]
   Description = "Manage mod packs for Minecraft"
