@@ -29,7 +29,7 @@ build_script:
       docker build -f Dockerfile.windows -t kleister/kleister-docs:windows .
 test_script:
   - cmd: |
-      docker run --rm kleister/kleister-docs:windows --version
+      docker run --rm kleister/kleister-docs:windows \\caddy.exe -version
 deploy_script:
   - ps: |
       $ErrorActionPreference = 'Stop';
