@@ -10,12 +10,18 @@ environment:
     secure: 'VqO/G3Zfslu6zSLdwHKO+Q=='
 
 install:
+  - ps: |
+      Install-Product node ''
   - cmd: |
       docker version
       go version
 build_script:
   - cmd: |
+      npm install
+      npm run build
+  - cmd: |
       make build
+
       docker pull microsoft/nanoserver:10.0.14393.1593
       docker build -f Dockerfile.windows -t kleister/kleister-docs:latest-windows .
 test_script:

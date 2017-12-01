@@ -2,10 +2,9 @@
 
 [![Build Status](http://github.dronehippie.de/api/badges/kleister/kleister-docs/status.svg)](http://github.dronehippie.de/kleister/kleister-docs)
 [![](https://images.microbadger.com/badges/image/kleister/kleister-docs.svg)](http://microbadger.com/images/kleister/kleister-docs "Get your own image badge on microbadger.com")
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3b314b2be7ca4855978df1637bd61676)](https://www.codacy.com/app/tboerger/kleister-docs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kleister/kleister-docs&amp;utm_campaign=Badge_Grade)
 [![Join the chat at https://gitter.im/kleister/kleister](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kleister/kleister)
 [![Stories in Ready](https://badge.waffle.io/kleister/kleister-api.svg?label=ready&title=Ready)](http://waffle.io/kleister/kleister-api)
-
-**This project is under heavy development, it's not in a working state yet!**
 
 Where does this name come from or what does it mean? It's quite simple, it's one german word for paste/glue, I thought it's a good match as it glues together the modpacks for Minecraft.
 
@@ -14,7 +13,7 @@ Documentation for the Kleister API and the command line client, you can find thi
 
 ## Hosting
 
-The website is hosted on infrastructure sponsored by [Webhippie](https://webhippie.de), the Docker container just gets launched on the Swarm cluster. The website gets automcatically updated on every push to the `master` branch.
+The website is hosted on infrastructure sponsored by [Webhippie](https://webhippie.de), the Docker container just gets launched on the Swarm cluster. The website gets automatically updated on every push to the `master` branch.
 
 If you want to host the docs on your own you can take our docker image [kleister/kleister-docs](https://hub.docker.com/r/kleister/kleister-docs/).
 
@@ -49,7 +48,7 @@ Fork -> Patch -> Push -> Pull Request
 
 ## License
 
-Apache-2.0
+CC-BY-SA-4.0
 
 
 ## Copyright
