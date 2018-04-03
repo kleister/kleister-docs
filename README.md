@@ -4,7 +4,6 @@
 [![Stories in Ready](https://badge.waffle.io/kleister/kleister-api.svg?label=ready&title=Ready)](http://waffle.io/kleister/kleister-api)
 [![Join the Matrix chat at https://matrix.to/#/#kleister:matrix.org](https://img.shields.io/badge/matrix-%23kleister%3Amatrix.org-7bc9a4.svg)](https://matrix.to/#/#kleister:matrix.org)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3b314b2be7ca4855978df1637bd61676)](https://www.codacy.com/app/kleister/kleister-docs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kleister/kleister-docs&amp;utm_campaign=Badge_Grade)
-[![](https://images.microbadger.com/badges/image/kleister/kleister-docs.svg)](http://microbadger.com/images/kleister/kleister-docs "Get your own image badge on microbadger.com")
 
 **This project is under heavy development, it's not in a working state yet!**
 
@@ -20,9 +19,7 @@ The website is hosted on [Netlify](https://www.netlify.com/), the website gets a
 
 ## Install
 
-This website uses the [Hugo](https://github.com/spf13/hugo) static site generator. If you are planning to contribute you'll want to download and install Hugo on your local machine.
-
-The installation of Hugo is out of the scope of this document, so please take the [official install instructions](https://gohugo.io/overview/installing/) to get Hugo up and running.
+This website uses the [Hugo](https://github.com/spf13/hugo) static site generator. If you are planning to contribute you'll want to download and install Hugo on your local machine. The installation of Hugo is out of the scope of this document, so please take the [official install instructions](https://gohugo.io/overview/installing/) to get Hugo up and running.
 
 
 ## Development
