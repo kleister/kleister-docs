@@ -1,6 +1,6 @@
 # Kleister: Documentation
 
-[![Build Status](http://github.dronehippie.de/api/badges/kleister/kleister-docs/status.svg)](http://github.dronehippie.de/kleister/kleister-docs)
+[![Build Status](http://drone.kleister.tech/api/badges/kleister/kleister-docs/status.svg)](http://drone.kleister.tech/kleister/kleister-docs)
 [![Stories in Ready](https://badge.waffle.io/kleister/kleister-api.svg?label=ready&title=Ready)](http://waffle.io/kleister/kleister-api)
 [![Join the Matrix chat at https://matrix.to/#/#kleister:matrix.org](https://img.shields.io/badge/matrix-%23kleister%3Amatrix.org-7bc9a4.svg)](https://matrix.to/#/#kleister:matrix.org)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3b314b2be7ca4855978df1637bd61676)](https://www.codacy.com/app/kleister/kleister-docs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kleister/kleister-docs&amp;utm_campaign=Badge_Grade)
@@ -9,7 +9,7 @@
 
 Where does this name come from or what does it mean? It's quite simple, it's one german word for paste/glue, I thought it's a good match as it glues together the modpacks for Minecraft.
 
-Documentation for the Kleister API and the command line client, you can find this website at [kleister.webhippie.de](https://kleister.webhippie.de).
+Documentation for the Kleister API and the command line client, you can find this website at [kleister.tech](https://kleister.tech).
 
 
 ## Hosting
