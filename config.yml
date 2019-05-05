@@ -1,0 +1,15 @@
+baseurl: /
+languageCode: en-us
+title: Kleister
+disableKinds: RSS
+
+outputs:
+  home:
+    - html
+    - json
+
+params:
+  Description: Manage mod packs for Minecraft
+  Author: Kleister Team
+  Website: https://kleister.webhippie.de
+  Github: kleister

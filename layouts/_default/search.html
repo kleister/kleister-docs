@@ -1,0 +1,51 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-3 col-md-3 col-sm-4 sidebar-offcanvas" id="sidebar">
+			{{ partial "menu" . }}
+		</div>
+
+		<div class="col-lg-9 col-md-9 col-sm-8">
+			<h1 id="matches">
+				Matches
+			</h1>
+
+			<div id="results"></div>
+		</div>
+	</div>
+</div>
+
+<script id="results-template" type="x-tmpl-mustache">
+	<%#matches%>
+		<div id="summary-<%key%>">
+			<h2>
+				<a href="<%link%>">
+					<%title%>
+				</a>
+			</h2>
+
+			<p>
+				<%snippet%>
+			</p>
+
+			<ul class="tags <%^tags%> hidden<%/tags%>">
+				<%#tags%>
+				  <li><%.%></li>
+				<%/tags%>
+			</ul>
+
+			<ul class="tags <%^categories%> hidden<%/categories%>">
+				<%#categories%>
+				  <li><%.%></li>
+				<%/tags%>
+			</ul>
+		</div>
+	<%/matches%>
+	<%^matches%>
+		<p>No matches found</p>
+	<%/matches%>
+</script>
+
+{{ partial "footer.html" . }}
