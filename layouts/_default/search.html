@@ -17,35 +17,42 @@
 	</div>
 </div>
 
-<script id="results-template" type="x-tmpl-mustache">
-	<%#matches%>
-		<div id="summary-<%key%>">
+<script id="template" type="x-tmpl-mustache">
+	{{"{{"}}#each matches{{"}}"}}
+		<div id="summary-{{"{{"}}@index{{"}}"}}">
 			<h2>
-				<a href="<%link%>">
-					<%title%>
+				<a href="{{"{{"}}permalink{{"}}"}}">
+					{{"{{"}}title{{"}}"}}
 				</a>
 			</h2>
 
 			<p>
-				<%snippet%>
+				{{"{{"}}contents{{"}}"}}
 			</p>
 
-			<ul class="tags <%^tags%> hidden<%/tags%>">
-				<%#tags%>
-				  <li><%.%></li>
-				<%/tags%>
-			</ul>
+			{{"{{"}}#if tags{{"}}"}}
+				<ul class="tags">
+					{{"{{"}}#each tags{{"}}"}}
+						<li>
+							{{"{{"}}.{{"}}"}}
+						</li>
+					{{"{{"}}/each{{"}}"}}
+				</ul>
+			{{"{{"}}/if{{"}}"}}
 
-			<ul class="tags <%^categories%> hidden<%/categories%>">
-				<%#categories%>
-				  <li><%.%></li>
-				<%/tags%>
-			</ul>
+			{{"{{"}}#if categories{{"}}"}}
+				<ul class="categories">
+					{{"{{"}}#each categories{{"}}"}}
+						<li>
+							{{"{{"}}.{{"}}"}}
+						</li>
+					{{"{{"}}/each{{"}}"}}
+				</ul>
+			{{"{{"}}/if{{"}}"}}
 		</div>
-	<%/matches%>
-	<%^matches%>
+	{{"{{"}}else{{"}}"}}
 		<p>No matches found</p>
-	<%/matches%>
+	{{"{{"}}/each{{"}}"}}
 </script>
 
 {{ partial "footer.html" . }}
