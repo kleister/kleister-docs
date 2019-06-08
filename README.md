@@ -1,7 +1,6 @@
 # Kleister: Documentation
 
-[![Build Status](http://cloud.drone.io/api/badges/kleister/kleister-docs/status.svg)](http://cloud.drone.io/kleister/kleister-docs)
-[![Stories in Ready](https://badge.waffle.io/kleister/kleister-api.svg?label=ready&title=Ready)](http://waffle.io/kleister/kleister-api)
+[![Build Status](https://cloud.drone.io/api/badges/kleister/kleister-docs/status.svg)](https://cloud.drone.io/kleister/kleister-docs)
 [![Join the Matrix chat at https://matrix.to/#/#kleister:matrix.org](https://img.shields.io/badge/matrix-%23kleister%3Amatrix.org-7bc9a4.svg)](https://matrix.to/#/#kleister:matrix.org)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3b314b2be7ca4855978df1637bd61676)](https://www.codacy.com/app/kleister/kleister-docs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kleister/kleister-docs&amp;utm_campaign=Badge_Grade)
 
