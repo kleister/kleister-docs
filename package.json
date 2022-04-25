@@ -19,11 +19,11 @@
   },
   "config": {},
   "dependencies": {
-    "autoprefixer": "^10.4.5",
-    "bootstrap": "^5.1.3",
-    "bootstrap-icons": "^1.8.1",
-    "postcss": "^8.4.12",
-    "postcss-cli": "^9.1.0"
+    "autoprefixer": "10.4.5",
+    "bootstrap": "5.1.3",
+    "bootstrap-icons": "1.8.1",
+    "postcss": "8.4.12",
+    "postcss-cli": "9.1.0"
   },
   "keywords": [
     "kleister"
