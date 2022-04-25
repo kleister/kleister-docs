@@ -72,13 +72,13 @@ labels:
     color: b60205
     description: Change or issue related to translations
 
-# teams:
-#   - name: admins
-#     permission: admin
-#   - name: bots
-#     permission: admin
-#   - name: members
-#     permission: push
+teams:
+  - name: admins
+    permission: admin
+  - name: bots
+    permission: admin
+  - name: members
+    permission: push
 
 branches:
   - name: master
