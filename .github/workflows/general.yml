@@ -1,0 +1,53 @@
+---
+name: general
+
+"on":
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  general:
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Checkout source
+        id: source
+        uses: actions/checkout@v3
+
+      - name: Setup nodejs
+        id: nodejs
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+          cache: yarn
+
+      - name: Setup hugo
+        id: hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 0.97.3
+          extended: true
+
+      - name: Install assets
+        id: assets
+        run: yarn install --frozen-lockfile
+
+      - name: Build website
+        id: build
+        run: hugo --cleanDestinationDir --enableGitInfo --minify --gc
+
+      - name: Deploy website
+        id: deploy
+        if: github.ref == 'refs/heads/master' && github.event_name == 'push'
+        env:
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        uses: netlify/actions/cli@master
+        with:
+          args: deploy --dir public/
+
+...

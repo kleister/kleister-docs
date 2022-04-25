@@ -28,22 +28,11 @@
 					{{ end }}
 					<li class="nav-item">
 						<a href="https://github.com/{{ .Site.Params.Github }}" class="nav-link">
-							<i class="ion-logo-github"></i>
+							<i class="bi bi-github"></i>
 							Github
 						</a>
 					</li>
 				</ul>
-
-				<form action="{{ "search" | absURL }}" method="get" id="search" class="form-inline mt-2 mt-md-0">
-					<div class="input-group">
-						<input type="text" name="q" placeholder="Search" aria-label="Search" class="form-control">
-						<div class="input-group-append">
-							<button type="submit" class="btn btn-outline-secondary">
-								<i class="ion-md-search"></i>
-							</button>
-						</div>
-					</div>
-				</form>
 			</div>
 		</div>
 	</nav>

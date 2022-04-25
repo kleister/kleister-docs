@@ -2,9 +2,9 @@
   "private": true,
   "name": "kleister-docs",
   "version": "0.1.0",
-  "description": "",
+  "description": "Assets for Kleister documentation",
   "homepage": "https://github.com/kleister/kleister-docs#readme",
-  "license": "",
+  "license": "CC-BY-SA-4.0",
   "author": {
     "name": "Thomas Boerger",
     "email": "thomas@webhippie.de"
@@ -18,47 +18,12 @@
     "email": "thomas@webhippie.de"
   },
   "config": {},
-  "scripts": {
-    "lint": "eslint source/ gulpfile.js",
-    "clean": "gulp clean",
-    "scripts": "gulp scripts",
-    "styles": "gulp styles",
-    "images": "gulp images",
-    "files": "gulp files",
-    "fonts": "gulp fonts",
-    "build": "gulp default",
-    "watch": "gulp watch"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.4.4",
-    "@babel/preset-env": "^7.4.4",
-    "babelify": "^10.0.0",
-    "browserify": "^16.2.3",
-    "del": "^4.1.1",
-    "eslint": "^5.16.0",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^6.1.0",
-    "gulp-changed": "^3.2.0",
-    "gulp-clean-css": "^4.2.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-plumber": "^1.2.1",
-    "gulp-sass": "^4.0.2",
-    "gulp-size": "^3.0.0",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-uglify": "^3.0.2",
-    "node-sass": "^4.12.0",
-    "node-sass-tilde-importer": "^1.0.2",
-    "vinyl-buffer": "^1.0.1",
-    "vinyl-source-stream": "^2.0.0"
-  },
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "fuse.js": "^3.4.4",
-    "handlebars": "^4.1.2",
-    "ionicons": "^4.5.6",
-    "jquery": "^3.4.1",
-    "mark.js": "^8.11.1",
-    "popper.js": "^1.15.0"
+    "autoprefixer": "^10.4.5",
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.8.1",
+    "postcss": "^8.4.12",
+    "postcss-cli": "^9.1.0"
   },
   "keywords": [
     "kleister"

@@ -1,7 +1,8 @@
+---
 repository:
   name: kleister-docs
   description: "Kleister: Documentation"
-  homepage: https://kleister.tech
+  homepage: https://kleister.eu
   topics: kleister, minecraft, docs, documentation, hugo
 
   private: false
@@ -79,19 +80,18 @@ teams:
   - name: members
     permission: push
 
-branches:
-  - name: master
-    protection:
-      required_status_checks:
-        strict: true
-        contexts:
-          - continuous-integration/drone/pr
-      enforce_admins: false
-      restrictions:
-        apps:
-          - renovate
-        users: []
-        teams:
-          - admins
-          - bots
-          - members
+# branches:
+#   - name: master
+#     protection:
+#       required_status_checks:
+#         strict: true
+#         contexts:
+#           - general
+#       enforce_admins: false
+#       restrictions:
+#         apps:
+#           - renovate
+#         users: []
+#         teams: []
+
+...
