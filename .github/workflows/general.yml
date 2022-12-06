@@ -11,7 +11,7 @@ name: general
 
 jobs:
   general:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout source
@@ -29,7 +29,7 @@ jobs:
         id: hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 0.97.3
+          hugo-version: latest
           extended: true
 
       - name: Install assets
