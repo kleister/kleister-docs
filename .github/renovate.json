@@ -10,8 +10,7 @@
           "description": "Semantic commits for major versions",
           "groupName": "major versions",
           "matchDatasources": [
-              "github-releases",
-              "terraform-provider"
+              "github-releases"
           ],
           "matchUpdateTypes": [
               "major"
@@ -24,8 +23,7 @@
           "description": "Semantic commits for minor versions",
           "groupName": "minor versions",
           "matchDatasources": [
-              "github-releases",
-              "terraform-provider"
+              "github-releases"
           ],
           "matchUpdateTypes": [
               "minor"
@@ -38,8 +36,7 @@
           "description": "Semantic commits for patch versions",
           "groupName": "patch versions",
           "matchDatasources": [
-              "github-releases",
-              "terraform-provider"
+              "github-releases"
           ],
           "matchUpdateTypes": [
               "patch"
