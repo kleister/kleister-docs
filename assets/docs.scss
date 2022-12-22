@@ -10,7 +10,7 @@ body {
   margin-bottom: 40px;
   cursor: default;
 
-  & > .container {
+  &>.container {
     padding: 40px 15px 60px;
   }
 }
@@ -23,7 +23,7 @@ footer {
   background-color: #f5f5f5;
   line-height: 40px;
 
-  & > .container {
+  &>.container {
     padding-right: 15px;
     padding-left: 15px;
   }
