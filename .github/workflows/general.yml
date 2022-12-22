@@ -22,8 +22,8 @@ jobs:
         id: nodejs
         uses: actions/setup-node@v3
         with:
-          node-version: 16.x
-          cache: yarn
+          node-version: 18.x
+          cache: npm
 
       - name: Setup hugo
         id: hugo
@@ -34,7 +34,7 @@ jobs:
 
       - name: Install assets
         id: assets
-        run: yarn install --frozen-lockfile
+        run: npm install --ci
 
       - name: Build website
         id: build
