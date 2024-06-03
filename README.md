@@ -1,6 +1,6 @@
 # Kleister: Documentation
 
-[![General Workflow](https://github.com/kleister/kleister-docs/actions/workflows/general.yml/badge.svg)](https://github.com/kleister/kleister-docs/actions/workflows/general.yml) [![Join the Matrix chat at https://matrix.to/#/#kleister:matrix.org](https://img.shields.io/badge/matrix-%23kleister%3Amatrix.org-7bc9a4.svg)](https://matrix.to/#/#kleister:matrix.org) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/21ee27fb731740d79a2bbe36a34c1848)](https://www.codacy.com/gh/kleister/kleister-docs/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kleister/kleister-docs&amp;utm_campaign=Badge_Grade)
+[![General Workflow](https://github.com/kleister/kleister-docs/actions/workflows/general.yml/badge.svg)](https://github.com/kleister/kleister-docs/actions/workflows/general.yml) [![Join the Matrix chat at https://matrix.to/#/#kleister:matrix.org](https://img.shields.io/badge/matrix-%23kleister%3Amatrix.org-7bc9a4.svg)](https://matrix.to/#/#kleister:matrix.org) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/21ee27fb731740d79a2bbe36a34c1848)](https://app.codacy.com/gh/kleister/kleister-docs/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
 Documentation for the Kleister project including the related tools and clients,
 you can find this website at [kleister.eu][website].
