@@ -1,8 +1,10 @@
 ---
 baseurl: /
-languageCode: en-us
+locale: en-us
 title: Kleister
-disableKinds: RSS
+
+disableKinds:
+  - rss
 
 params:
   Description: Manage mod packs for Minecraft

@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "kleister-docs",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Assets for Kleister documentation",
   "homepage": "https://github.com/kleister/kleister-docs#readme",
   "license": "CC-BY-SA-4.0",
@@ -27,5 +27,8 @@
   },
   "keywords": [
     "kleister"
-  ]
+  ],
+  "allowScripts": {
+    "fsevents@2.3.3": true
+  }
 }
