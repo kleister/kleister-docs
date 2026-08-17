@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/kleister/kleister-docs/compare/v1.0.0...v1.1.0) (2026-08-17)
+
+### Dependencies
+
+* **minor:** update dependency hugo-extended to v0.165.0 ([#251](https://github.com/kleister/kleister-docs/issues/251)) ([b6016e2](https://github.com/kleister/kleister-docs/commit/b6016e2e9aa7d4451ac4856f1ff604dc069e286c))
+* **patch:** update dependency pre-commit to v4.6.2 ([#250](https://github.com/kleister/kleister-docs/issues/250)) ([1363680](https://github.com/kleister/kleister-docs/commit/1363680e89647b3088c4a262184a4cde421589a4))
+
 ## 1.0.0 (2026-08-10)
 
 ### Features
