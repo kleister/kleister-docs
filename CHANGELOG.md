@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/kleister/kleister-docs/compare/v1.1.0...v1.1.1) (2026-09-07)
+
+### Dependencies
+
+* **patch:** update dependency postcss to v8.5.27 ([#255](https://github.com/kleister/kleister-docs/issues/255)) ([86d8739](https://github.com/kleister/kleister-docs/commit/86d873913e823a606c6fbaa7bec90215dda0e48c))
+* **patch:** update dependency postcss to v8.5.28 ([#256](https://github.com/kleister/kleister-docs/issues/256)) ([f6d568f](https://github.com/kleister/kleister-docs/commit/f6d568f729d9b796c765527d621ca1795d0b904d))
+
 ## [1.1.0](https://github.com/kleister/kleister-docs/compare/v1.0.0...v1.1.0) (2026-08-17)
 
 ### Dependencies
