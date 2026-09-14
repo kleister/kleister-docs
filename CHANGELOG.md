@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.0.0](https://github.com/kleister/kleister-docs/compare/v1.1.1...v2.0.0) (2026-09-14)
+
+### Dependencies
+
+* **major:** update dependency postcss-cli to v12 ([#259](https://github.com/kleister/kleister-docs/issues/259)) ([4dbc672](https://github.com/kleister/kleister-docs/commit/4dbc6721b4dc9fbdb38166138ca7df14ef9613bd))
+* **mise:** update dependency hugo-extended to v0.166.0 ([#260](https://github.com/kleister/kleister-docs/issues/260)) ([00fc2c4](https://github.com/kleister/kleister-docs/commit/00fc2c40d8c48a12aa7744c896ef191c1072dd61))
+* **mise:** update dependency prek to v0.5.3 ([#261](https://github.com/kleister/kleister-docs/issues/261)) ([7c8a2f7](https://github.com/kleister/kleister-docs/commit/7c8a2f75c5d631e9e4793d02936f8938190d4d51))
+* **patch:** update dependency autoprefixer to v10.5.5 ([#258](https://github.com/kleister/kleister-docs/issues/258)) ([23b2b72](https://github.com/kleister/kleister-docs/commit/23b2b72bad6f9b9a265e8d51c0969405047dfd26))
+* **patch:** update dependency autoprefixer to v10.5.6 ([#262](https://github.com/kleister/kleister-docs/issues/262)) ([44043cf](https://github.com/kleister/kleister-docs/commit/44043cf48178ec3fa4be47f484fa561115a96139))
+
 ## [1.1.1](https://github.com/kleister/kleister-docs/compare/v1.1.0...v1.1.1) (2026-09-07)
 
 ### Dependencies
