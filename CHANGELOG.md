@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/kleister/kleister-docs/compare/v2.0.0...v2.1.0) (2026-09-21)
+
+### Dependencies
+
+* **minor:** update dependency autoprefixer to v10.6.0 ([#264](https://github.com/kleister/kleister-docs/issues/264)) ([824f3f6](https://github.com/kleister/kleister-docs/commit/824f3f642960e4983b0d41f6bc4773d311c4254d))
+* **patch:** update dependency autoprefixer to v10.6.1 ([#265](https://github.com/kleister/kleister-docs/issues/265)) ([4d98f14](https://github.com/kleister/kleister-docs/commit/4d98f14564ab5474a41684688240a0f4658deca5))
+
 ## [2.0.0](https://github.com/kleister/kleister-docs/compare/v1.1.1...v2.0.0) (2026-09-14)
 
 ### Dependencies
