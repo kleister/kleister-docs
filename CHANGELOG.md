@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.1.1](https://github.com/kleister/kleister-docs/compare/v2.1.0...v2.1.1) (2026-10-12)
+
+### Dependencies
+
+* **mise:** update dependency hugo-extended to v0.167.0 ([#269](https://github.com/kleister/kleister-docs/issues/269)) ([6b9a0bb](https://github.com/kleister/kleister-docs/commit/6b9a0bb83434b273a6a98f6e1f095f777158a35a))
+* **mise:** update dependency prek to v0.5.4 ([#268](https://github.com/kleister/kleister-docs/issues/268)) ([5853b93](https://github.com/kleister/kleister-docs/commit/5853b938fe8abd444f2b6730a77e6d50d436be4e))
+* **mise:** update dependency prek to v0.5.5 ([#272](https://github.com/kleister/kleister-docs/issues/272)) ([2b2da60](https://github.com/kleister/kleister-docs/commit/2b2da608960385335182c05563338fecc1823646))
+* **patch:** update dependency bootstrap-icons to v1.13.2 ([#274](https://github.com/kleister/kleister-docs/issues/274)) ([728eb52](https://github.com/kleister/kleister-docs/commit/728eb5274900718037d4ee3339a69d50109d0a95))
+* **patch:** update dependency postcss to v8.5.29 ([#273](https://github.com/kleister/kleister-docs/issues/273)) ([47ff9a5](https://github.com/kleister/kleister-docs/commit/47ff9a590162d03896d2954378cb02b2e1d64d39))
+
 ## [2.1.0](https://github.com/kleister/kleister-docs/compare/v2.0.0...v2.1.0) (2026-09-21)
 
 ### Dependencies
