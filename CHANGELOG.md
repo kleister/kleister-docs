@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.2](https://github.com/kleister/kleister-docs/compare/v2.1.1...v2.1.2) (2026-10-19)
+
+### Dependencies
+
+* **mise:** update dependency hugo-extended to v0.168.0 ([#276](https://github.com/kleister/kleister-docs/issues/276)) ([3c40ccb](https://github.com/kleister/kleister-docs/commit/3c40ccb807cae56e389ec76c3ed8117a22ccf5d9))
+* **mise:** update dependency prek to v0.5.6 ([#279](https://github.com/kleister/kleister-docs/issues/279)) ([fe7716b](https://github.com/kleister/kleister-docs/commit/fe7716b5723e47b4c31c6b036e7ffcb970e608f9))
+* **patch:** update dependency postcss to v8.5.30 ([#277](https://github.com/kleister/kleister-docs/issues/277)) ([04c0813](https://github.com/kleister/kleister-docs/commit/04c081331edb57f099f5aab5327a05813e216141))
+
 ## [2.1.1](https://github.com/kleister/kleister-docs/compare/v2.1.0...v2.1.1) (2026-10-12)
 
 ### Dependencies
