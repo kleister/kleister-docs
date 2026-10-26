@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.3](https://github.com/kleister/kleister-docs/compare/v2.1.2...v2.1.3) (2026-10-26)
+
+### Dependencies
+
+* **mise:** update dependency prek to v0.5.7 ([#280](https://github.com/kleister/kleister-docs/issues/280)) ([6558e6b](https://github.com/kleister/kleister-docs/commit/6558e6bb18b1384be11b86dd126dac03c7840acf))
+* **patch:** update dependency postcss to v8.5.31 ([#281](https://github.com/kleister/kleister-docs/issues/281)) ([ae738c0](https://github.com/kleister/kleister-docs/commit/ae738c07f5785c05ceab0b583fb5bf950b36edae))
+
 ## [2.1.2](https://github.com/kleister/kleister-docs/compare/v2.1.1...v2.1.2) (2026-10-19)
 
 ### Dependencies
