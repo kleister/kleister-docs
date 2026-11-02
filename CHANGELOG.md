@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.1.4](https://github.com/kleister/kleister-docs/compare/v2.1.3...v2.1.4) (2026-11-02)
+
+### Dependencies
+
+* **mise:** update dependency hugo-extended to v0.169.0 ([#283](https://github.com/kleister/kleister-docs/issues/283)) ([62a5278](https://github.com/kleister/kleister-docs/commit/62a5278d3f5421805de0387e9825c303404002ad))
+* **mise:** update dependency prek to v0.5.9 ([#287](https://github.com/kleister/kleister-docs/issues/287)) ([6d3ad71](https://github.com/kleister/kleister-docs/commit/6d3ad712251034348c28fbab510fee99af469060))
+* **mise:** update node.js to v26 ([#284](https://github.com/kleister/kleister-docs/issues/284)) ([c93377c](https://github.com/kleister/kleister-docs/commit/c93377ce7f2b0bebc3942dcc7b6434fa81be6968))
+* **patch:** update dependency autoprefixer to v10.6.2 ([#285](https://github.com/kleister/kleister-docs/issues/285)) ([dd9f63a](https://github.com/kleister/kleister-docs/commit/dd9f63ac284e0e6ba2ca7d94ac6b00369e4ef5a7))
+* **patch:** update dependency postcss to v8.5.32 ([#286](https://github.com/kleister/kleister-docs/issues/286)) ([c55bfdb](https://github.com/kleister/kleister-docs/commit/c55bfdbf5910f9896ce77a0b72ddb2eb283a2698))
+
 ## [2.1.3](https://github.com/kleister/kleister-docs/compare/v2.1.2...v2.1.3) (2026-10-26)
 
 ### Dependencies
