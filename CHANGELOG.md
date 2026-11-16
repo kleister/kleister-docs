@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.1.5](https://github.com/kleister/kleister-docs/compare/v2.1.4...v2.1.5) (2026-11-16)
+
+* automated release update [skip ci] ([638aa09](https://github.com/kleister/kleister-docs/commit/638aa09f830011f4263da0ce57dbb17991c4181d))
+* **locks:** lock file maintenance ([#290](https://github.com/kleister/kleister-docs/issues/290)) ([e7c5a09](https://github.com/kleister/kleister-docs/commit/e7c5a098aa6390575d231880490b3f0e1c75e77b))
+
+### Dependencies
+
+* **mise:** update dependency prek to v0.5.10 ([#289](https://github.com/kleister/kleister-docs/issues/289)) ([94b0f1e](https://github.com/kleister/kleister-docs/commit/94b0f1e68043f8dd0583cf02521545849b06c85f))
+* **mise:** update dependency prek to v0.5.11 ([#293](https://github.com/kleister/kleister-docs/issues/293)) ([29e5638](https://github.com/kleister/kleister-docs/commit/29e5638621a2a66f527629785d02e26dab99352a))
+* **patch:** update dependency bootstrap to v5.3.9 ([#292](https://github.com/kleister/kleister-docs/issues/292)) ([87f0ef8](https://github.com/kleister/kleister-docs/commit/87f0ef84d4fd2d4dedc662e9b5cccc3639f49fb3))
+
 ## [2.1.4](https://github.com/kleister/kleister-docs/compare/v2.1.3...v2.1.4) (2026-11-02)
 
 ### Dependencies
