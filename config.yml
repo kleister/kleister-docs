@@ -12,6 +12,10 @@ params:
   Website: https://kleister.eu
   Github: kleister
 
+security:
+  allowContent:
+    - '! ^text/org$'
+
 module:
   mounts:
     - source: content
