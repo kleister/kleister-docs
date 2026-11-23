@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.2.0](https://github.com/kleister/kleister-docs/compare/v2.1.5...v2.2.0) (2026-11-23)
+
+* **locks:** lock file maintenance ([#296](https://github.com/kleister/kleister-docs/issues/296)) ([6e92c72](https://github.com/kleister/kleister-docs/commit/6e92c727ac9459a09e21cea609023b9ecdc2a1d1))
+
+### Dependencies
+
+* **minor:** update dependency autoprefixer to v10.7.0 ([#295](https://github.com/kleister/kleister-docs/issues/295)) ([460abd2](https://github.com/kleister/kleister-docs/commit/460abd229031032ccc64885b532c4ea17328b42d))
+* **mise:** update dependency hugo-extended to v0.170.0 ([#291](https://github.com/kleister/kleister-docs/issues/291)) ([242a3b2](https://github.com/kleister/kleister-docs/commit/242a3b217d220ede0373a1e1a6dd7f7627504f9e))
+* **patch:** update dependency postcss to v8.5.33 ([#294](https://github.com/kleister/kleister-docs/issues/294)) ([0b268e3](https://github.com/kleister/kleister-docs/commit/0b268e34ba88d3b69684066aad90961db1bf4da6))
+
 ## [2.1.5](https://github.com/kleister/kleister-docs/compare/v2.1.4...v2.1.5) (2026-11-16)
 
 * automated release update [skip ci] ([638aa09](https://github.com/kleister/kleister-docs/commit/638aa09f830011f4263da0ce57dbb17991c4181d))
